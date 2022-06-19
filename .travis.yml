@@ -1,0 +1,10 @@
+dist: jammy
+group: dev
+language: cpp
+arch:
+  - amd64
+  - arm64
+compiler:
+  - gcc
+script:
+  - gcc --version
