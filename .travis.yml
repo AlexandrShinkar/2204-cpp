@@ -5,7 +5,7 @@ arch:
   - amd64
   - arm64
 compiler:
-  - gcc
+  - g++
 script:
   - g++ --version
   - g++ -Wall hello.cpp -o hello
