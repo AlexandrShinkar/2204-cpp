@@ -8,3 +8,5 @@ compiler:
   - gcc
 script:
   - gcc --version
+  - gcc -Wall hello.cpp -o hello
+  - ./hello
